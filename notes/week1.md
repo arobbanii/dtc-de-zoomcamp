@@ -21,7 +21,6 @@
   * Spark: Distributed Processing
   * Kafka: Streaming 
 ## Docker
-* [Video](https://www.youtube.com/watch?v=EYNwNlOrpr0&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=3)
 * [Docker](https://en.wikipedia.org/wiki/Docker_(software)) is a service that deliver software (or in this case is data pipeline) in packages called containers. Containers are isolated one another and bundle their own software, libraries, and configuration files. Eventhough containers isolated one another, they still can communicate each other so you can run multiple containers without conflict
 * Docker can reproduce from Docker Image. Docker Image is a set of instructions and setup to build containers that saved in 'image'. From this image we can produce multiple identical containers.
 * Advantages of docker:
@@ -89,3 +88,5 @@ $ docker run -it test:pandas 01-21-2022
 ['pipeline.py', '01-21-2022']
 job finished succesfully for day: 01-21-2022
 ```
+
+
